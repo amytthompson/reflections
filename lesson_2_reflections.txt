@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 	Creates a git respository to store your changes (for version control)
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area is a transit directory between the working directory and the repository. It allows you to control exactly what gets pushed to the repository.
+
+How can you use the staging area to make suer you have one commit per logical change?
+	Using git diff, git diff --staged, before committing
