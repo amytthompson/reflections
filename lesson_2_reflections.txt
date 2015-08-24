@@ -12,3 +12,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 	It allows you to see the branch structure and see how branches can be added or lost
+
+What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
+	Merging two branches together keeps the commits from both branches. If you delete the branch before merging the commits, you lose the commits to that branch. In a sense, if you wanted to try something new, you would create a new branch then merge those commits into the master. If not, you can delete the branch without affecting the master.
