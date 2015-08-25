@@ -19,3 +19,6 @@ What is the result of merging two branches together? Why do we represent it in t
 What are the pros and cons of Git's automatic merging vs always doing merges manually?
 	Pro: better control, as you understand the changes (Git does not)
 	Con: you have to resolve conflicts, which could get annoying...
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	You have control over the repository; you may not want to push all changes.
